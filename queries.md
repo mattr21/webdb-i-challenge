@@ -16,6 +16,7 @@ SELECT * FROM orders ORDER BY orderdate desc
 SELECT * FROM suppliers WHERE length(suppliername) > 20
 
 ## find all customers that include the word "market" in the name. Should return 4 records.
+SELECT * FROM customers WHERE customername like '%market%'
 
 ## add a customer record for _"The Shire"_, the contact name is _"Bilbo Baggins"_ the address is _"1 Hobbit-Hole"_ in _"Bag End"_, postal code _"111"_ and the country is _"Middle Earth"_.
 
