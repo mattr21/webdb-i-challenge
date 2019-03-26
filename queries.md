@@ -23,6 +23,9 @@ INSERT INTO Customers
 VALUES ('92', 'The Shire', 'Bilbo Baggins', '1 Hobbit-Hole', 'Bag End', '111', 'Middle Earth')
 
 ## update _Bilbo Baggins_ record so that the postal code changes to _"11122"_.
+UPDATE Customers
+SET PostalCode = '11122'
+WHERE CustomerID = '92'
 
 ## list orders grouped by customer showing the number of orders per customer. _Rattlesnake Canyon Grocery_ should have 7 orders.
 
